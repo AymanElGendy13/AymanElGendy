@@ -17,6 +17,7 @@ The automation testing section includes the following:
 
     For Automation Video: https://drive.google.com/file/d/15k0WnE7T05sOyTvm6RNYc-HL9wEvZRaf/view?usp=drive_link
     POM (Page Object Model): Implementation of the Page Object Model design pattern to manage the test case code.
+    Data Driven: Reading data from excel "csv" file as input data for the test cases.
     Selenium WebDriver: Utilized for automating web application interactions.
     TestNG Annotations: Configuration and execution of test cases using TestNG annotations.
     Java: The programming language used for writing the test automation code.
