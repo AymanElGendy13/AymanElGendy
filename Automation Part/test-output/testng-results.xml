@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-10T15:51:02 EET" name="Test Suite" finished-at="2024-11-10T15:51:29 EET" duration-ms="27259">
+    <groups>
+    </groups>
+    <test started-at="2024-11-10T15:51:02 EET" name="Login Tests" finished-at="2024-11-10T15:51:29 EET" duration-ms="27259">
+      <class name="tests.LoginTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTests@124c278f]" started-at="2024-11-10T15:51:02 EET" name="setUp" finished-at="2024-11-10T15:51:05 EET" duration-ms="2770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmptyPassword()[pri:0, instance:tests.LoginTests@124c278f]" started-at="2024-11-10T15:51:05 EET" name="testEmptyPassword" finished-at="2024-11-10T15:51:05 EET" duration-ms="541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@124c278f]" started-at="2024-11-10T15:51:05 EET" name="tearDown" finished-at="2024-11-10T15:51:06 EET" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTests@124c278f]" started-at="2024-11-10T15:51:06 EET" name="setUp" finished-at="2024-11-10T15:51:07 EET" duration-ms="1725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmptyUsername()[pri:0, instance:tests.LoginTests@124c278f]" started-at="2024-11-10T15:51:07 EET" name="testEmptyUsername" finished-at="2024-11-10T15:51:08 EET" duration-ms="518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@124c278f]" started-at="2024-11-10T15:51:08 EET" name="tearDown" finished-at="2024-11-10T15:51:08 EET" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTests@124c278f]" started-at="2024-11-10T15:51:08 EET" name="setUp" finished-at="2024-11-10T15:51:10 EET" duration-ms="1708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidLogin()[pri:0, instance:tests.LoginTests@124c278f]" started-at="2024-11-10T15:51:10 EET" name="testInvalidLogin" finished-at="2024-11-10T15:51:10 EET" duration-ms="564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@124c278f]" started-at="2024-11-10T15:51:10 EET" name="tearDown" finished-at="2024-11-10T15:51:10 EET" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTests@124c278f]" started-at="2024-11-10T15:51:10 EET" name="setUp" finished-at="2024-11-10T15:51:12 EET" duration-ms="1583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginMultipleUsers(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTests@124c278f]" started-at="2024-11-10T15:51:12 EET" name="testLoginMultipleUsers" data-provider="loginData" finished-at="2024-11-10T15:51:12 EET" duration-ms="517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginMultipleUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@124c278f]" started-at="2024-11-10T15:51:12 EET" name="tearDown" finished-at="2024-11-10T15:51:13 EET" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTests@124c278f]" started-at="2024-11-10T15:51:13 EET" name="setUp" finished-at="2024-11-10T15:51:14 EET" duration-ms="1681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginMultipleUsers(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTests@124c278f]" started-at="2024-11-10T15:51:14 EET" name="testLoginMultipleUsers" data-provider="loginData" finished-at="2024-11-10T15:51:15 EET" duration-ms="518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginMultipleUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@124c278f]" started-at="2024-11-10T15:51:15 EET" name="tearDown" finished-at="2024-11-10T15:51:15 EET" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTests@124c278f]" started-at="2024-11-10T15:51:15 EET" name="setUp" finished-at="2024-11-10T15:51:17 EET" duration-ms="1616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginMultipleUsers(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTests@124c278f]" started-at="2024-11-10T15:51:17 EET" name="testLoginMultipleUsers" data-provider="loginData" finished-at="2024-11-10T15:51:17 EET" duration-ms="493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginMultipleUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@124c278f]" started-at="2024-11-10T15:51:17 EET" name="tearDown" finished-at="2024-11-10T15:51:17 EET" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTests@124c278f]" started-at="2024-11-10T15:51:17 EET" name="setUp" finished-at="2024-11-10T15:51:19 EET" duration-ms="1695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginMultipleUsers(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTests@124c278f]" started-at="2024-11-10T15:51:19 EET" name="testLoginMultipleUsers" data-provider="loginData" finished-at="2024-11-10T15:51:24 EET" duration-ms="5553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginMultipleUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@124c278f]" started-at="2024-11-10T15:51:24 EET" name="tearDown" finished-at="2024-11-10T15:51:25 EET" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTests@124c278f]" started-at="2024-11-10T15:51:25 EET" name="setUp" finished-at="2024-11-10T15:51:26 EET" duration-ms="1663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginMultipleUsers(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTests@124c278f]" started-at="2024-11-10T15:51:26 EET" name="testLoginMultipleUsers" data-provider="loginData" finished-at="2024-11-10T15:51:27 EET" duration-ms="495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[error_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginMultipleUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@124c278f]" started-at="2024-11-10T15:51:27 EET" name="tearDown" finished-at="2024-11-10T15:51:27 EET" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTests@124c278f]" started-at="2024-11-10T15:51:27 EET" name="setUp" finished-at="2024-11-10T15:51:29 EET" duration-ms="1618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginMultipleUsers(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTests@124c278f]" started-at="2024-11-10T15:51:29 EET" name="testLoginMultipleUsers" data-provider="loginData" finished-at="2024-11-10T15:51:29 EET" duration-ms="544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[visual_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginMultipleUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@124c278f]" started-at="2024-11-10T15:51:29 EET" name="tearDown" finished-at="2024-11-10T15:51:29 EET" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTests -->
+    </test> <!-- Login Tests -->
+  </suite> <!-- Test Suite -->
+</testng-results>
